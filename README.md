@@ -1,8 +1,8 @@
 # Bike-Share-Data-Analysis
 This project analyzes bike-sharing data to assess the feasibility of increasing prices next year. The analysis is based on three datasets
-- bike_share_yr_0 (2021 data)
-- bike_share_yr_1 (2022 data)
-- cost_table
+- bike_share_yr_0 (2021 data) [Table 1]
+- bike_share_yr_1 (2022 data) [Table 2]
+- cost_table [Table 3]
 
 **Importing Data into SQL Server Management Studio (SSMS) Using Import Flat File**
 
@@ -17,8 +17,10 @@ Using Import Flat File: In SSMS, right-click on the database where you want to l
 
 SELECT TOP 1000 * FROM bike_share_yr_0;
 
-# RUN SQL QUERY
+# RUN SQL QUERY for Table 1
 
 ![Screenshot 2024-10-22 173358](https://github.com/user-attachments/assets/547921af-ed54-4248-9e06-7b2405758892)
+
+
 
 
