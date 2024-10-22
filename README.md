@@ -17,11 +17,22 @@ Using Import Flat File: In SSMS, right-click on the database where you want to l
 
 SELECT TOP 1000 * FROM bike_share_yr_0;
 
-# Run Sql Query for Table 1
+## Run Sql Query for Table 1
 
 ![Screenshot 2024-10-22 173358](https://github.com/user-attachments/assets/547921af-ed54-4248-9e06-7b2405758892)
 
-# Run Sql Query for Table 2
+## Run Sql Query for Table 2
+
+## Run Sql Query for Table 3
+
+## Objective: 
+Merge data from two tables (bike_share_yr_0 and bike_share_yr_1) to analyze bike-sharing information across different years (2021 and 2022). The UNION ALL operator is used to combine data from both tables while keeping all rows, including any duplicates.
+
+**What is UNION ALL?**
+- The UNION ALL command is used to combine the result sets of two or more SELECT queries.
+- It does not remove duplicates. If there are rows that appear in both tables, they will still be present in the final result.
+- This is useful when you want to include all records from both datasets, even if some are repeated.
+
 
 
 
