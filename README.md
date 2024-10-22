@@ -16,7 +16,8 @@ Using Import Flat File: In SSMS, right-click on the database where you want to l
 - Verification: After importing, verified the data using a simple SELECT query.
 
 SELECT TOP 1000 * FROM bike_share_yr_0;
-#RUN SQL QUERY
+
+# RUN SQL QUERY
 
 ![Screenshot 2024-10-22 173358](https://github.com/user-attachments/assets/547921af-ed54-4248-9e06-7b2405758892)
 
