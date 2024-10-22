@@ -17,9 +17,11 @@ Using Import Flat File: In SSMS, right-click on the database where you want to l
 
 SELECT TOP 1000 * FROM bike_share_yr_0;
 
-# RUN SQL QUERY for Table 1
+# Run Sql Query for Table 1
 
 ![Screenshot 2024-10-22 173358](https://github.com/user-attachments/assets/547921af-ed54-4248-9e06-7b2405758892)
+
+# Run Sql Query for Table 2
 
 
 
