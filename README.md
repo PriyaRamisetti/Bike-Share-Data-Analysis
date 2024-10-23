@@ -101,8 +101,8 @@ season,yr,weekday,hr,rider_type,riders,price,COGS.
 **5.Verify Data:**
 - Go to the Data View in Power BI to verify that the data and calculations have been imported correctly, including fields like Revenue and Profit.
 
-  
-
+ ![Screenshot 2024-10-23 232638](https://github.com/user-attachments/assets/61b159b9-9420-4a51-9482-47e4ca3eebd4)
+ 
  ## Power BI Dashboard Explanation
 
 After importing the SQL query into Power BI, I built several visualizations to help  Bike Share analyze their business performance. Here's a breakdown of the visuals used:
