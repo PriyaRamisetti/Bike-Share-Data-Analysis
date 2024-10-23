@@ -6,8 +6,9 @@ This project analyzes bike-sharing data to assess the feasibility of increasing 
 
 **Importing Data into SQL Server Management Studio (SSMS) Using Import Flat File**
 
-Open SQL Server Management Studio (SSMS): Ensure your SQL Server is running, and connect to the server.
-Using Import Flat File: In SSMS, right-click on the database where you want to load the data.
+ Open SQL Server Management Studio (SSMS): Ensure your SQL Server is running, and connect to the server.
+
+ Using Import Flat File: In SSMS, right-click on the database where you want to load the data.
 - Select Tasks > Import Flat File.
 - Importing Datasets: Imported each dataset (bike_share_yr_0, bike_share_yr_1, cost_table) 
 - Select the data file (e.g., .csv).
