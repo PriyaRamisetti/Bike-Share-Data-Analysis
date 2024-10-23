@@ -74,7 +74,7 @@ season,yr,weekday,hr,rider_type,riders,price,COGS.
 
 **Profit:**  This calculation determines the profit by subtracting the total cost (COGS * riders) from the total revenue (riders * price). [(riders * price) - (COGS * riders) AS Profit]
 
-
+![Screenshot 2024-10-23 225123](https://github.com/user-attachments/assets/ea8a5891-ffc6-4c7a-ba79-53e13656e593)
 
 - By performing these calculations within the SQL query, we can directly analyze the financial performance of the bike-sharing service, including total revenue and profit for each entry in the dataset.
 
@@ -100,6 +100,8 @@ season,yr,weekday,hr,rider_type,riders,price,COGS.
 
 **5.Verify Data:**
 - Go to the Data View in Power BI to verify that the data and calculations have been imported correctly, including fields like Revenue and Profit.
+
+  
 
  ## Power BI Dashboard Explanation
 
