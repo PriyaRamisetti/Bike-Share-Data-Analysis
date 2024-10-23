@@ -25,7 +25,7 @@ SELECT TOP 1000 * FROM bike_share_yr_0;
 
 ## Run Sql Query for Table 3
 
-## Objective: 
+**Objective:** 
 Merge data from two tables (bike_share_yr_0 and bike_share_yr_1) to analyze bike-sharing information across different years (2021 and 2022). The UNION ALL operator is used to combine data from both tables while keeping all rows, including any duplicates.
 
 **What is UNION ALL?**
@@ -36,7 +36,27 @@ Merge data from two tables (bike_share_yr_0 and bike_share_yr_1) to analyze bike
 **Project Scenario :**
 In this case, we are merging two years of bike-sharing data from bike_share_yr_0 (2022) and bike_share_yr_1 (2023). Using UNION ALL, we ensure that all records, including duplicate entries for riders who might have used the service in both years, are included in the final dataset. This allows for a thorough analysis of trends across both years.
 
+**Joining Tables Using Common Table Expression (CTE) and LEFT JOIN**
 
+**Objective:** Combine the combined data from two tables (bike_share_yr_0 and bike_share_yr_1) with a third table (cost_table) to analyze bike-sharing metrics alongside associated costs.
+
+**Explanation:**
+**Common Table Expression (CTE):**
+The WITH CTE AS (...) statement defines a temporary result set named CTE.
+Within the CTE, we combine data from bike_share_yr_0 and bike_share_yr_1 using UNION ALL, which includes all rows from both tables.
+**Selecting from the CTE:**
+The main SELECT statement retrieves data from the CTE, represented as a.
+
+**LEFT JOIN Operation:**
+- The LEFT JOIN clause combines records from the CTE (which contains data from both years) with the cost_table.
+- It matches rows from the CTE where the year (yr) corresponds to the year in the cost_table.
+- If there is no match found in cost_table, the result will still include rows from the CTE, but the columns from the cost_table will be NULL.
+
+**Purpose of the Join:**
+- This approach allows for comprehensive analysis by merging bike-sharing data (from both years) with cost data, enabling you to calculate metrics such as total revenue, profit margins, and any other relevant financial analysis.
+- The result set will include all bike-sharing records along with their associated costs, providing a holistic view of performance.
+
+## SQL Query using CTE and LEFT JOIN
 
 
 
