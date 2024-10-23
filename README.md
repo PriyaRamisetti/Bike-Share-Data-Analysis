@@ -39,7 +39,7 @@ Merge data from two tables (bike_share_yr_0 and bike_share_yr_1) to analyze bike
 - This is useful when you want to include all records from both datasets, even if some are repeated.
 
 **Project Scenario :**
-In this case, we are merging two years of bike-sharing data from bike_share_yr_0 (2022) and bike_share_yr_1 (2023). Using UNION ALL, we ensure that all records, including duplicate entries for riders who might have used the service in both years, are included in the final dataset. This allows for a thorough analysis of trends across both years.
+In this case, we are merging two years of bike-sharing data from bike_share_yr_0 (2021) and bike_share_yr_1 (2022). Using UNION ALL, we ensure that all records, including duplicate entries for riders who might have used the service in both years, are included in the final dataset. This allows for a thorough analysis of trends across both years.
 
 ![Screenshot 2024-10-23 225719](https://github.com/user-attachments/assets/e41b96c0-3800-4b70-835d-de550797c204)
 
