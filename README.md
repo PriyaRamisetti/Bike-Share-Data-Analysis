@@ -160,7 +160,9 @@ After importing the SQL query into Power BI, I built several visualizations to h
 - **Casual Riders** (18.19%)
 - **Insight:** This Donut Chart helps visualize the rider breakdown, showing that registered riders contribute significantly more to overall ridership, suggesting loyalty programs or other initiatives could be more profitable.
 
-  ![Screenshot 2024-10-23 194326](https://github.com/user-attachments/assets/2ad15010-b922-4c13-bf58-9109e9291990)
+ ![Screenshot 2024-10-23 194326](https://github.com/user-attachments/assets/2ad15010-b922-4c13-bf58-9109e9291990)
+ 
+ ![Screenshot 2024-10-23 194856](https://github.com/user-attachments/assets/74adaea1-5ea4-4b6d-93cd-2087c0714ea0)
 
 
 
