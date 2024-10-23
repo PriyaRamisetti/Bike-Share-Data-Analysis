@@ -92,5 +92,73 @@ season,yr,weekday,hr,rider_type,riders,price,COGS.
 **5.Verify Data:**
 - Go to the Data View in Power BI to verify that the data and calculations have been imported correctly, including fields like Revenue and Profit.
 
+ ## Power BI Dashboard Explanation
+
+After importing the SQL query into Power BI, I built several visualizations to help  Bike Share analyze their business performance. Here's a breakdown of the visuals used:
+
+**1. Revenue and Profit Overview**
+
+**Visualization Type:** Card
+-  A **Card** displays a single number or summary metric, often used for KPIs like total sales or profit.
+
+**Metrics:**
+- **Revenue ($10M):** The total revenue generated for the year 2022, displayed using a Card.
+- **Profit ($7.03M):** Total profit for the year, also visualized using a Card.
+- **Insight:** These cards provide a quick snapshot of key financial figures to assess overall performance.
+ 
+**2. KPI Over Time**
+  
+**Visualization Type:** Line and Clustered Column Chart
+
+- A combination chart that uses columns to display data for one measure and a line to display another measure, making it easy to compare trends and categories.
+
+
+**Metrics:**
+- **Riders (Bars):** Total riders per month in 2022.
+- **Average of Profit (Yellow Line):** Average profit calculated across each month.
+- **Average of Revenue (Red Line):** Average revenue per month.
+- **Insight:** This visual shows monthly trends and highlights seasonal fluctuations in ridership and earnings, with peaks during summer months and a decline towards the year’s end.
+
+**3. Riders and Profit Margin Overview**
+
+**Visualization Type:** Card
+- A card is a visual element that displays a single value or metric prominently, often used to highlight key information or performance indicators.
+  
+ **Metrics:**
+- **Riders (2M):** The total number of riders in 2022 visualized with a Card.
+- **Profit Margin (0.45):** The ratio of profit to revenue displayed in another Card.
+- **Insight:** This gives a high-level overview of ridership and profitability, helping assess how much profit was made per unit of revenue.
+
+**4. Revenue by Hour**
+
+**Visualization Type:** Matrix
+
+- A table-like visualization that displays data in a grid format, allowing for comparisons across multiple categories and measures.
+  
+**Metrics:**
+- **Revenue by Hour:** A Matrix visual showing revenue for each hour of the day.
+- **Insight:** The matrix reveals patterns in revenue generation across different hours, helping to identify the most and least profitable times of the day.
+
+**5. Revenue by Season**
+
+**Visualization Type:** Clustered Bar Chart 
+
+- A clustered bar chart is a type of chart that displays multiple sets of data side by side in separate bars grouped by categories, allowing for easy comparison of different groups across multiple series.
+
+**Metrics:**
+- **Revenue by Season:** A Stacked Bar Chart showing revenue across the four seasons.
+- **Insight:** Summer (Season 3) generated the highest revenue, indicating a strong seasonal trend that can guide pricing strategies for the future.
+
+**6. Riders by Rider Type**
+
+**Visualization Type:** Donut Chart
+
+- A circular chart that shows proportions by dividing data into segments, similar to a pie chart but with a blank center for better readability.
+
+**Metrics:**
+- **Registered Riders** (81.81%)
+- **Casual Riders** (18.19%)
+- **Insight:** This Donut Chart helps visualize the rider breakdown, showing that registered riders contribute significantly more to overall ridership, suggesting loyalty programs or other initiatives could be more profitable.
+
 
 
