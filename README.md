@@ -23,7 +23,10 @@ SELECT TOP 1000 * FROM bike_share_yr_0;
 
 ## Run Sql Query for Table 2
 
+![Screenshot 2024-10-23 222110](https://github.com/user-attachments/assets/6f510ad1-3848-4069-b04b-84ad962a56ac)
+
 ## Run Sql Query for Table 3
+
 
 **Objective:** 
 Merge data from two tables (bike_share_yr_0 and bike_share_yr_1) to analyze bike-sharing information across different years (2021 and 2022). The UNION ALL operator is used to combine data from both tables while keeping all rows, including any duplicates.
