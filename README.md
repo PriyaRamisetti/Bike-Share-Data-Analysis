@@ -63,7 +63,7 @@ The main SELECT statement retrieves data from the CTE, represented as a.
 - The result set will include all bike-sharing records along with their associated costs, providing a holistic view of performance.
 
 ## SQL Query using CTE and LEFT JOIN
-
+![Screenshot 2024-10-23 224532](https://github.com/user-attachments/assets/80aa77d5-7dcc-42a7-a45e-c46d726d591c)
 
 **Selected Columns:** Instead of retrieving all the columns from the tables, we have selected specific columns like:dteday, 
 season,yr,weekday,hr,rider_type,riders,price,COGS.
@@ -73,6 +73,8 @@ season,yr,weekday,hr,rider_type,riders,price,COGS.
 **Revenue:**  This calculation multiplies the number of riders by the price per ride to determine the total revenue generated for each row. [riders * price AS Revenue]
 
 **Profit:**  This calculation determines the profit by subtracting the total cost (COGS * riders) from the total revenue (riders * price). [(riders * price) - (COGS * riders) AS Profit]
+
+
 
 - By performing these calculations within the SQL query, we can directly analyze the financial performance of the bike-sharing service, including total revenue and profit for each entry in the dataset.
 
