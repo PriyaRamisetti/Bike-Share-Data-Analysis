@@ -51,6 +51,7 @@ In this case, we are merging two years of bike-sharing data from bike_share_yr_0
 **Common Table Expression (CTE):**
 The WITH CTE AS (...) statement defines a temporary result set named CTE.
 Within the CTE, we combine data from bike_share_yr_0 and bike_share_yr_1 using UNION ALL, which includes all rows from both tables.
+
 **Selecting from the CTE:**
 The main SELECT statement retrieves data from the CTE, represented as a.
 
