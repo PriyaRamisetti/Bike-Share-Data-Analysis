@@ -65,10 +65,32 @@ season,yr,weekday,hr,rider_type,riders,price,COGS.
 
 **Revenue:**  This calculation multiplies the number of riders by the price per ride to determine the total revenue generated for each row. [riders * price AS Revenue]
 
-**Profit:**  This calculation determines the profit by subtracting the total cost (COGS * riders) from the total revenue (riders * price). [(a.riders * c.price) - (c.COGS * a.riders) AS Profit]
+**Profit:**  This calculation determines the profit by subtracting the total cost (COGS * riders) from the total revenue (riders * price). [(riders * price) - (COGS * riders) AS Profit]
 
 - By performing these calculations within the SQL query, we can directly analyze the financial performance of the bike-sharing service, including total revenue and profit for each entry in the dataset.
 
+## Loading SQL Query into Power BI
+- After completing the SQL query in SQL Server Management Studio (SSMS), the next step is to load the data into Power BI for further analysis and visualization. Below are the steps to accomplish this:
+
+**1.Open Power BI:**
+- Launch Power BI Desktop.
+- Navigate to "Get Data":
+- On the Home tab, click on Get Data and select SQL Server from the available options.
+
+**2.Provide SQL Server Connection:**
+- Enter the Server Name that you connected to in SSMS.
+- Specify the Database name if needed.
+- Click OK to proceed.
+
+**3.Use Advanced SQL Options:**
+- In the SQL Server Database dialog, scroll down to Advanced Options.
+- Paste the SQL query into the SQL Statement field
+
+**4.Load Data:**
+- Click OK and Power BI will run the query and load the data into the model.
+
+**5.Verify Data:**
+- Go to the Data View in Power BI to verify that the data and calculations have been imported correctly, including fields like Revenue and Profit.
 
 
 
