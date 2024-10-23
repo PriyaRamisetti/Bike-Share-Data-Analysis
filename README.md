@@ -40,6 +40,8 @@ Merge data from two tables (bike_share_yr_0 and bike_share_yr_1) to analyze bike
 **Project Scenario :**
 In this case, we are merging two years of bike-sharing data from bike_share_yr_0 (2022) and bike_share_yr_1 (2023). Using UNION ALL, we ensure that all records, including duplicate entries for riders who might have used the service in both years, are included in the final dataset. This allows for a thorough analysis of trends across both years.
 
+![Screenshot 2024-10-23 223759](https://github.com/user-attachments/assets/cc2448f3-d9b0-4bc4-b53b-6e35bfa7739b)
+
 **Joining Tables Using Common Table Expression (CTE) and LEFT JOIN**
 
 **Objective:** Combine the combined data from two tables (bike_share_yr_0 and bike_share_yr_1) with a third table (cost_table) to analyze bike-sharing metrics alongside associated costs.
@@ -61,6 +63,7 @@ The main SELECT statement retrieves data from the CTE, represented as a.
 - The result set will include all bike-sharing records along with their associated costs, providing a holistic view of performance.
 
 ## SQL Query using CTE and LEFT JOIN
+
 
 **Selected Columns:** Instead of retrieving all the columns from the tables, we have selected specific columns like:dteday, 
 season,yr,weekday,hr,rider_type,riders,price,COGS.
